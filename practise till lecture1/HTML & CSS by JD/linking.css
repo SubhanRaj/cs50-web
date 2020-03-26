@@ -1,0 +1,42 @@
+h1{
+  text-align: center;
+  font-size: 38px;
+  color: red;
+}
+
+h2{
+  font-family: arial;
+  font-size: 25px;
+  text-align: left;
+  color: gold;
+  text-decoration: underline;
+  font-style: italic;
+  padding-right: 10px;
+
+}
+ul>li{
+  text-align: left;
+  padding-left: 5px;
+  font-family: cursive;
+  color: silver;
+  font-size: 20px;
+
+}
+h3{
+  font-family: arial;
+  font-size: 25px;
+  text-align: left;
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+  padding-right: 25px;
+}
+
+ol>li{
+  text-align: left;
+  padding-left: 5px;
+  font-family: cursive;
+  color: silver;
+  font-size: 20px;
+
+}
