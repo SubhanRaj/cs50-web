@@ -1,8 +1,36 @@
-table{
-  margin: 25px;
-  border: 5px dashed blue;
+.nav {
+
+  margin-top: 10px;
+
+  text-align: center;
 }
-td{
-  padding: 2.5px;
-  
+.maintop{
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 10px;
+
+}
+@media (min) {
+
+}
+.h1Home{
+  font-style: italic;
+  font-family: arial;
+  color: red;
+  text-align: center;
+  font-size: 45px;
+}
+.containerbox{
+  margin: 15px;
+  padding: 5px;
+  background-color: sandstone;
+  border: 2px solid red;
+  width: 25%;
+  height: 500px;
+}
+.pmaintop{
+  text-align: left;
+  font-weight: bold;
+  font-family: comicsans;
+  font-size: 25px;
 }
