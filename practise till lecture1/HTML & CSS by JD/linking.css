@@ -19,7 +19,7 @@ a{
   font-family: cursive;
   color: magenta;
   font-size: 15px;
-  
+
 }
 ul>li{
   text-align: left;
@@ -46,4 +46,7 @@ ol>li{
   color: silver;
   font-size: 20px;
 
+}
+p{
+  color: s
 }
