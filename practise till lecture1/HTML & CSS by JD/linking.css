@@ -48,5 +48,12 @@ ol>li{
 
 }
 p{
-  color: s
+  color:blue;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:fantasy;
+
+}
+img{
+  border: 5px solid blue;
 }
