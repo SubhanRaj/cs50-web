@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devicewidth,initialscale=1.0">
+
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+
+  </head>
+  <body>
+    <h1>I'm trying to create a form which will include all elements.</h1>
+      <form action="personaldetails.html" method="get">
+      <div id="searchbox">
+        <p><img src="D:\CS50 Web\cs50-web\bootstrap-4.3.1-dist\icons\search.svg" alt="Search icon">Search this page</p>
+        <input type="search" placeholder="Enter keyword" ></input>
+      </div>
+
+    </form>
+    <form action="choice.html" method="post">
+      <h2>Enter your details</h2>
+      <fieldset id="additionalinfo">
+        <div id="DOB">
+          <label>Date of Birth: <input type="date" name="DOB" required="required"></label>
+        </div>
+        <br>
+        <div id="address">
+          <textarea placeholder="Enter your address"></textarea>
+          <br>
+          <input type="number" name="pincode" maxlength="6"  placeholder="Pincode" >
+          <br>
+        </div>
+        <br>
+
+      </fieldset>
+      <h2>Choose your Qualification</h2>
+      <div id="Qualification">
+        <input type="radio" name="Qualification" value="Ph.D">Ph.D
+        <input type="radio" name="Qualification" value="Post Graduate">PG
+        <input type="radio" name="Qualification" value="Under Graduate">UG
+        <input type="radio" name="Qualification" value="Intermidiate">12th
+        <input type="radio" name="Qualification" value="Highschool">10th
+        <input type="radio" name="Qualification" value="Junior Highschool">8th
+        <input type="radio" name="Qualification" value="Primary">5th
+        <input type="radio" name="Qualification" value="Illiterate">Illetirate
+      </div>
+      <div id="button1">
+        <input type="submit">
+      </div>
+
+    </form>

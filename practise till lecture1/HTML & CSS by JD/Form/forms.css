@@ -1,0 +1,83 @@
+body{
+  background-color: pink;
+
+}
+
+h1{
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+  text-decoration: underline;
+  
+
+}
+#searchbox{
+  margin-left: 80%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+legend{
+
+  font-size: 25px;
+  font-family: cursive;
+
+}
+h2{
+  margin-left: 200px;
+
+}
+#choice{
+  margin-left: 100px;
+  color: orange;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+h3{
+  color: red;
+  text-align: center;
+
+}
+fieldset{
+  width: 20%;
+  background-color: skyblue;
+  margin-left: 200px;
+  padding: 10px;
+  margin-right: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+input{
+  border: 1px red solid;
+
+}
+
+#button1{
+  margin-top: 5px;
+padding-left: 200px;
+
+
+}
+
+
+#additionalinfo{
+  background-color: yellow;
+}
+#address{
+  margin-right: 40px;
+}
+#Qualification{
+  margin-left: 15%;
+}
+#container1{
+  height: 250px;
+  width: 100px;
+  border: 1px solid black;
+  margin-left: 75%;
+}
+#food{
+  margin-left: 25px;
+}
