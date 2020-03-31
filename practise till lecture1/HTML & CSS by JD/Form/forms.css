@@ -32,7 +32,7 @@ h2{
   color: orange;
   font-weight: bold;
   font-style: oblique;
-  font-family: sans-serif;
+  font-family: arial;
   display: flex;
   flex-wrap: wrap;
 }
@@ -52,6 +52,9 @@ fieldset{
 }
 input{
   border: 1px red solid;
+
+    margin: .4rem 0;
+}
 
 }
 
@@ -106,4 +109,10 @@ select{
 #Proceed{
   margin-left: 110px;
   margin-top: 5px;
+}
+#upload{
+  text-align: left;
+}
+#ch{
+  color: black;
 }

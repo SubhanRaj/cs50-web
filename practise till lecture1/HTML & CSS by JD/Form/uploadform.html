@@ -16,9 +16,19 @@
         <input type="search" placeholder="Enter keyword" ></input>
       </div>
       </form>
+      <br>
       <form action="formdata.php" method="post">
-         <input type="file" name="song" value="Your Song">Upload a file
-         <input type="submit" value="Upload">
+         <input type="file" name="song" value="Your Song">Upload a file.
+
+       <h3 id="upload">Your Favouriot City <span id="ch">(you can choose more than one)</span></h3>
+        <select size="2" name="places" multiple="multiple">
+          <option  value="Lucknow">Lucknow</option>
+          <option value="kanpur">kanpur</option>
+          <option value="delhi">Delhi</option>
+          <option value="banaras">banaras</option>
+
+        </select>
+        <input type="submit" value="Upload">
       </form>
 
   </body>
