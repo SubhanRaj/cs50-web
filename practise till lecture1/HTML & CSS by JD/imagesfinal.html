@@ -3,9 +3,19 @@
   <head>
     <meta name="viewport" content="width= devicewidth, initialscale=1.0">
     <meta charset="utf-8">
-
-    <link rel="stylesheet" href="linking.css">
+    <meta name="description" content="This page contains all songs in album Different World launched by Alan walker in 2015">
+    <meta http-equiv="author" content="Alan Walker">
+    <meta name="keywords" content="Alan Wlaker, Different World, Alone, faded, Electro Music, ">
+    <link rel="stylesheet"href="merge.css">
     <title>Alan Walker's Different World</title>
+    <style media="screen">
+      iframe{
+      margin-left: 60%;
+      width: 200px;
+      margin-left: 80%;
+      height: 100px;
+      }
+    </style>
   </head>
   <body>
     <h1>
@@ -15,6 +25,7 @@
       <img src="E:\Songs and Pics\Alan Walker - Different World (2018) Mp3 320kbps Songs [PMEDIA]\cover.jpg"
       alt="Coverof Album Different World by Alan Walker" title="Different World is a album by Alan Walker" height="200px" width="200px" align="left" >
        <p>The Album Different World is launced in 2013, and it has 15 songs</p>
+       <iframe src="D:\CS50 Web\cs50-web\practise till lecture1\HTML & CSS by JD\Form\search.html"></iframe>
       <br>
       <br>
       <br>
@@ -27,10 +38,10 @@
       <br>
       <br>
     <ol>
-      
+
       <li><a href="E:\Songs and Pics\Alan Walker - Different World (2018) Mp3 320kbps Songs [PMEDIA]\01 Intro.mp3"> Intro</a>
       <li><a href="E:\Songs and Pics\Alan Walker - Different World (2018) Mp3 320kbps Songs [PMEDIA]\02 Lost Control.mp3"> Lost Control</a>
-      <li><a href="E:\Songs and Pics\Alan Walker - Different World (2018) Mp3 320kbps Songs [PMEDIA]\03 I Don't Wanna Go.mp3"> I Don't Wanna Go</a>
+      <li><a href="E:\Songs and Pics\Alan Walker - Different World (2018) Mp3 320kbps Songs [PMEDIA]\03 I Don't Wanna Go.mp3">I Don't Wanna Go</a>
       <li><a href="E:\Songs and Pics\Alan Walker - Different World (2018) Mp3 320kbps Songs [PMEDIA]\04 Lily.mp3"> Lily</a>
       <li><a href="E:\Songs and Pics\Alan Walker - Different World (2018) Mp3 320kbps Songs [PMEDIA]\05 Lonely.mp3"> Lonely</a>
       <li><a href="E:\Songs and Pics\Alan Walker - Different World (2018) Mp3 320kbps Songs [PMEDIA]\06 Do It All for You.mp3"> Do It All for You</a>
@@ -46,6 +57,32 @@
 
 
     </ol>
+    <form  action="imagesfinal.html" method="post">
+      <h2 id="choice">Which song you liked most?</h2>
+      <div id="checkbox">
+      <input type="checkbox" name="choice" value="Intro">Intro
+      <input type="checkbox" name="choice" value="Lost Control">Lost Control
+      <input type="checkbox" name="choice" value="I Don't Wanna Go">I Don't Wanna Go
+      <input type="checkbox" name="choice" value="Lily">Lily
+      <input type="checkbox" name="choice" value="Lonely">Lonely
+      <hr width="95%" >
+      <input type="checkbox" name="choice" value="Do It All for You">Do It All for You
+      <input type="checkbox" name="choice" value="Different World">Different World
+      <input type="checkbox" name="choice" value="Interlude">Interlude
+      <input type="checkbox" name="choice" value="Sing Me to Sleep">Sing Me to Sleep
+      <input type="checkbox" name="choice" value="All Falls Down">All Falls Down
+      <hr width="95%" >
+      <input type="checkbox" name="choice" value="Darkside">Darkside
+      <input type="checkbox" name="choice" value="Alone">Alone
+      <input type="checkbox" name="choice" value="Diamond Heart">Diamond Heart
+      <input type="checkbox" name="choice" value="Faded (Interlude)">Faded (Interlude)
+      <input type="checkbox" name="choice" value="Faded">Faded
+    </div>
+
+     <br>
+      <div id="Proceed"><input type="submit" value="Proceed"></div>
+    </form>
+
 
 
   </body>
