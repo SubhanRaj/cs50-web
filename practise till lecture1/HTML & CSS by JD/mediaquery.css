@@ -1,0 +1,12 @@
+/*this sytlesheet contains media query*/
+@media print {
+  #searchbox{
+    display: none;
+  }
+  body{
+    background-color: white;
+  }
+  #vid1{
+    display: none;
+  }
+}

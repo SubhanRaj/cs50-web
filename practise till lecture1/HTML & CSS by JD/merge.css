@@ -1,4 +1,4 @@
-/*This stylesheet is a  collective mixture of linking.css & forms.css and at last it also have Bopotstrap's CSS library*/
+/*This stylesheet is a  collective mixture of linking.css & forms.css and at last it also CSS for HTML5 Video and audio player*/
 
 /*stylesheet for Forms*/
 
@@ -21,6 +21,8 @@ h1{
   flex-wrap: wrap;
 
 }
+
+
 legend{
 
   font-size: 25px;
@@ -189,4 +191,39 @@ img{
 figcaption{
   font-family: cursive;
 
+}
+
+/*Below styling is for HTML5 Video player*/
+#video {
+  text-align: center;
+  color: red;
+  font-weight: normal;
+
+
+}
+#searchicon{
+  border: none;
+}
+#psearch{
+  color: black;
+  font-weight: normal;
+  font-family: cursive;
+}
+#vidh1{
+  font-family: serif;
+  font-weight: bolder;
+
+
+}
+
+#parthtml{
+  color: lightgreen;
+  font-style: italic;
+}
+video{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+b{
+  color: teal;
 }
