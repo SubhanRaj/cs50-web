@@ -194,6 +194,9 @@ figcaption{
 }
 
 /*Below styling is for HTML5 Video player*/
+#html5video{
+  background-color: cyan;
+}
 #video {
   text-align: center;
   color: red;
@@ -203,9 +206,10 @@ figcaption{
 }
 #searchicon{
   border: none;
+
 }
 #psearch{
-  color: black;
+  color: red;
   font-weight: normal;
   font-family: cursive;
 }
@@ -226,4 +230,39 @@ video{
 }
 b{
   color: teal;
+}
+
+/*Styling for HTML5 Audio*/
+
+#html5audio{
+  background-color: purple;
+}
+#audh1{
+  color: cyan;
+}
+#track1{
+margin-left: 0;
+margin-right:0%;
+margin-bottom: 0%;
+
+}
+#trackinfo{
+
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration:underline red;
+
+}
+#trackname{
+  color:skyblue;
+}
+#lycontainer{
+  background-color: white;
+  height: 500px;
+  width: 30%;
+  margin-left: 50%;
+}
+#lyrics {
+  color: black;
+  font-size: 20px;
 }
