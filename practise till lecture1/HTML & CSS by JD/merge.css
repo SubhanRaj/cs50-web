@@ -241,10 +241,17 @@ b{
   color: cyan;
 }
 #track1{
-margin-left: 0;
+margin-left: 10%;
 margin-right:0%;
 margin-bottom: 0%;
 
+}
+#audposter{
+  margin-top: 10px;
+  margin-left: 10%;
+  height: 300px;
+  width: 300px;
+  border: 0px solid white;
 }
 #trackinfo{
 
